@@ -1,5 +1,6 @@
 import { useState } from "react";
 import styled from "styled-components";
+import Menu from "./components/Menu";
 import Topbar from "./components/Topbar";
 
 const AppContainer = styled.div`
@@ -13,6 +14,7 @@ const App = () => {
   return (
   <AppContainer>
     <Topbar menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
+    <Menu menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
     </AppContainer>
   )
 };
