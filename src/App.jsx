@@ -2,6 +2,7 @@ import { useState } from "react";
 import styled from "styled-components";
 import Menu from "./components/Menu";
 import Topbar from "./components/Topbar";
+import Contact from "./sections/Contact";
 import Intro from "./sections/Intro";
 import Portfolio from "./sections/Portfolio";
 import Testimonials from "./sections/Testimonials";
@@ -44,6 +45,7 @@ const App = () => {
         <Portfolio />
         <Works />
         <Testimonials />
+        <Contact />
       </Sections>  
   </AppContainer>
   )
