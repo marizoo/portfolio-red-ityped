@@ -1,3 +1,5 @@
-a WHAT website created with React + styled component
-+ using WHAT...
-![Screenshot of the site](./screenshots/Agensy-website-800.png)
+a portfolio website created with React + styled component.
+
+- iTyped
+- css animation dropdown Menu
+  ![Screenshot of the site](./screenshots/14.portfolio-red-400.png)
