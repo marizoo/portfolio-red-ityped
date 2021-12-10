@@ -13,3 +13,9 @@ export const mainColor = () => {
   #15023a
   `;
 };
+
+export const secondaryColor = () => {
+  return css`
+  crimson
+  `;
+};
