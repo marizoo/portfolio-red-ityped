@@ -4,6 +4,7 @@ import Menu from "./components/Menu";
 import Topbar from "./components/Topbar";
 import Intro from "./sections/Intro";
 import Portfolio from "./sections/Portfolio";
+import Works from "./sections/Works";
 
 const AppContainer = styled.div`
 height: 100vh;
@@ -40,6 +41,7 @@ const App = () => {
       <Sections>
         <Intro />
         <Portfolio />
+        <Works />
       </Sections>
   </AppContainer>
   )
