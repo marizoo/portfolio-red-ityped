@@ -3,6 +3,7 @@ import styled from "styled-components";
 import Menu from "./components/Menu";
 import Topbar from "./components/Topbar";
 import Intro from "./sections/Intro";
+import Portfolio from "./sections/Portfolio";
 
 const AppContainer = styled.div`
 height: 100vh;
@@ -38,6 +39,7 @@ const App = () => {
       <Menu menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
       <Sections>
         <Intro />
+        <Portfolio />
       </Sections>
   </AppContainer>
   )
