@@ -4,6 +4,7 @@ import Menu from "./components/Menu";
 import Topbar from "./components/Topbar";
 import Intro from "./sections/Intro";
 import Portfolio from "./sections/Portfolio";
+import Testimonials from "./sections/Testimonials";
 import Works from "./sections/Works";
 
 const AppContainer = styled.div`
@@ -42,7 +43,8 @@ const App = () => {
         <Intro />
         <Portfolio />
         <Works />
-      </Sections>
+        <Testimonials />
+      </Sections>  
   </AppContainer>
   )
 };
